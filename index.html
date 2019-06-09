@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlockBuster</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="scr/css/home.css"/>
+</head>
+<body>
+  <section class="home" id="home">
+    <div class="home-sidebar">
+      <div class="sidebar">
+        <div>
+          <figure class="logo-image">
+            <img src="scr/images/block.png" alt="BlockBuster - Como en los viejos tiempos" />
+          </figure>
+        </div>
+        <div>
+          <h2>Mi Playlist</h2>
+          <ol class="myPlaylist">
+            <!--this is going to fill up with JS-->
+          </ol>
+        </div>
+        <div>
+          <h2>Playlist de amigos</h2>
+          <ul class="playlistFriends">
+            <!--this is going to fill up with JS-->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="home-primary">
+      <div class="primary-search">
+        <form action="" class="search" id="form">
+          <input type="text" name="name" placeholder="Buscar un artista o tema favorito"/>
+        </form>
+      </div>
+      <div class="primary-user">
+        <div class="user">
+          <p>
+            <img src="scr/images/perfil.jpeg" alt=""/>
+            <span>Francisco Raimondi</span>
+          </p>
+        </div>
+      </div>
+      <div class="primary-list">
+        <div class="primaryPlaylist">
+            <h3 class="primaryPlaylist-topic">A los golpes</h3>
+            <h2 class="primaryPlaylist-title">Acción</h2>
+            <div class="primaryPlaylist-list" id="action">
+              <img src="scr/images/loader.gif" width="50" height="50" alt="">
+            </div>
+        </div>
+        <div class="primaryPlaylist">
+          <h3 class="primaryPlaylist-topic">Para llorar</h3>
+          <h2 class="primaryPlaylist-title">Drama</h2>
+          <div class="primaryPlaylist-list" id="drama">
+            <img src="scr/images/loader.gif" width="50" height="50" alt="">
+          </div>
+        </div>
+        <div class="primaryPlaylist">
+          <h3 class="primaryPlaylist-topic">Dibujitos animados</h3>
+          <h2 class="primaryPlaylist-title">Animación</h2>
+          <div class="primaryPlaylist-list" id="animation">
+            <img src="scr/images/loader.gif" width="50" height="50" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-featuring" id="featuring">
+    <!--This is going to be the search success (or not) section-->
+    </div>
+  </section>
+  <!--Here is going to be a modal-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
